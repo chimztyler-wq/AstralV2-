@@ -1,6 +1,0 @@
-{
-  "name": "ASTRAL BEAMS - #1 Beaming Server",
-  "description": "The best beaming server with premium non-hooked sites. Join thousands of users and experience premium beaming services.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
