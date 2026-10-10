@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASTRAL BEAMS - #1 Beaming Server</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="description" content="The best beaming server with the best non-hooked sites. Join thousands of users and experience premium beaming services." />
+    <meta name="author" content="ASTRAL BEAMS" />
+    <meta property="og:title" content="ASTRAL BEAMS - #1 Beaming Server" />
+    <meta property="og:description" content="The best beaming server with the best non-hooked sites." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://media.discordapp.net/attachments/1040321427359924274/1492183630389317783/astralbanner.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="ASTRAL BEAMS - #1 Beaming Server" />
+    <meta name="twitter:image" content="https://media.discordapp.net/attachments/1040321427359924274/1492183630389317783/astralbanner.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body oncontextmenu="return false">
+    <div id="root"></div>
+    <script>
+      document.addEventListener('keydown', function (e) {
+        if (
+          e.key === 'F12' ||
+          (e.ctrlKey && e.shiftKey && ['I', 'J', 'C'].includes(e.key)) ||
+          (e.ctrlKey && e.key.toLowerCase() === 'u')
+        ) {
+          e.preventDefault();
+          return false;
+        }
+      });
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
